@@ -1,0 +1,22 @@
+.title{
+    display: flex;
+    flex-basis: 300;
+}
+
+img{
+    width: 20%;
+    height: auto;
+}
+
+.picture-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.picture-row p {
+    display: inline-block; /* Makes the paragraphs align horizontally */
+    margin: 0 10px; /* Optional: adds space between paragraphs */
+    vertical-align: top; /* Aligns the paragraphs with the top of the images */
+}
